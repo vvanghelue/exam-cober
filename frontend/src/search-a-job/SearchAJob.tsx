@@ -78,6 +78,7 @@ export default function SearchAJob() {
             />
           </>
         )}
+        <div className="h-24"></div>
       </div>
     </div>
   );
