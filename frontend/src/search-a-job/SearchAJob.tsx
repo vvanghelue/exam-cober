@@ -49,7 +49,7 @@ export default function SearchAJob() {
   }
 
   React.useEffect(() => {
-    fetchSearchResults({ searchParams, page });
+    fetchSearchResults({ searchParams, page: 1 });
   }, [searchParams, page]);
 
   return (
@@ -60,6 +60,7 @@ export default function SearchAJob() {
           defaultSearchParams={defaultSearchParams}
           onSearch={(searchParams) => {
             setSearchParams(searchParams);
+            setPage(1); // when params changes we expect to set page to 1
           }}
         />
         {isLoading && <LoadingPlaceHolder />}
