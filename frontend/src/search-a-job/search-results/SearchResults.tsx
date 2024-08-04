@@ -16,7 +16,7 @@ export default function SearchResults({
         <div className="font-bold">{total.toLocaleString()} résultats</div>
       </div>
       {ads.map((ad) => (
-        <div key={ad.id} className="rounded-md border p-4 shadow">
+        <div key={ad.id} className="rounded-md p-4 shadow-xl bg-white">
           <div className="flex justify-between items-center">
             <div className="font-bold text-xl">{ad.title}</div>
             <div className="bg-violet-100 px-4 py-1 rounded-full">

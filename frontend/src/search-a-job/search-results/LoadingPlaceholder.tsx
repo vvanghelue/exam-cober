@@ -4,7 +4,7 @@ export default function LoadingPlaceHolder() {
       {[...new Array(10)].map((i, j) => (
         <div
           key={j}
-          className="animate-pulse bg-gray-200 rounded-xl h-[200px]"
+          className="animate-pulse bg-[#00000011] rounded-xl h-[200px]"
         ></div>
       ))}
     </div>

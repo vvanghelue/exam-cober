@@ -3,6 +3,7 @@
 ## start dev backend server 
 open terminal in /backend folder, then
 ```
+npm install
 npm run dev
 ```
 
@@ -10,6 +11,7 @@ npm run dev
 ## start dev frontend server
 open terminal in /frontend folder, then
 ```
+npm install
 npm run dev
 ```
 

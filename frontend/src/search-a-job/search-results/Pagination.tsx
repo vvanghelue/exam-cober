@@ -30,7 +30,7 @@ export default function Pagination({
           <div
             key={shownPage}
             className={clsx(
-              "rounded-full w-12 h-12 border flex justify-center items-center",
+              "rounded-full w-12 h-12 border flex justify-center items-center bg-white",
               {
                 "border-violet-600 text-violet-600": shownPage === currentPage,
               },
